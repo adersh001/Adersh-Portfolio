@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.daynight{
+    background: black;
+    color: #3B82F6;
+}
+
+#b1{
+    width: 20px;
+    padding: 3px 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px #3B82F6;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+#b1:hover{
+    box-shadow: 0px 0px 10px #3B82F6;
+}
+
+.headermain.color{
+    background-color: black;
+    color: #3B82F6;
+}
+
+.a1.clr{
+    color: #3B82F6;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.headermain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.lheader{
+    height: 10%;
+    font-family: fantasy;
+    color: #3B82F6;
+    height: 100%;
+    width: 10%;
+    font-size: 25px;
+    padding: 0 30px;
+}
+
+.header{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header a{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+
+.header a:hover{
+    color: #3B82F6;
+    transform: scale(1.1);
+}
+
+.menu{
+    display: none;
+}
+
+.homebody{
+    width: 80%;
+    justify-self: center;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lbody{
+    width: 55%; 
+    margin-top: 250px;
+}
+
+.home h1{
+    font-size: 65px;
+    margin-bottom: 10px;    
+}
+
+.home h1 span{
+    font-size: 75px;
+    color: #3B82F6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.home h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.home h1 span:hover{
+    color: white;
+    filter: drop-shadow(0px 0px 2px #3B82F6);
+}
+
+.home h2 span:hover{
+    color: white;
+    filter: drop-shadow(0px 0px 3px #3B82F6);
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50%;
+    height: 25px;
+}
+
+.social img{
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.social img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 5px #3B82F6);
+}
+
+
+.rbody{
+    width: 40%;
+    align-items: center;
+    filter: drop-shadow(0px 0px 5px #3B82F6);
+    margin-top: 100px;
+    animation: move 4s infinite linear;
+}
+
+@keyframes move {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+.rbody img{
+    width: 70%;
+    display: block;
+    justify-self: center;
+}
+
+.rbody hr{
+    width: 80%;
+    border: solid 3px #3B82F6;
+    justify-self: center;
+    transform: translateX(20px);
+    box-shadow: 0px 0px 5px #3B82F6;
+}
+
+#about{
+    height: 87vh;
+    width: 88vw;
+    padding: 13vh 5vw;
+}
+
+.aboutbody{
+    width: 80%;
+    padding: 100px 0;
+    justify-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutcontent{
+    width: 50%;
+}
+.aboutcontent h1{
+    margin-bottom: 10px;
+}
+
+.aboutcontent p{
+    text-align: justify;
+}
+
+.aboutcontent p a{
+    text-decoration: none;
+}
+
+.aboutcontent p button{
+    margin-top: 10px;
+    display: block;
+    justify-self: center;
+    padding: 10px 20px;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    color: white;
+    border: solid 1px #3B82F6;
+    font-weight: bolder;
+}
+
+.aboutcontent p button:hover{
+    color: #3B82F6;
+    background-color: white;
+    box-shadow: 0px 0px 10px #3B82F6;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 5px #3B82F6);
+    align-self: center;
+}
+
+.circle img{
+    height: 100%;
+}
+
+.head{ 
+    justify-self: left;
+    margin-left: 60px;
+}
+
+.head h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+    color: #3B82F6;
+}
+
+.line{
+    height: 3px;
+    width: 100%;
+    background-color: #3B82F6;
+    border-radius: 10px;
+}
+
+
+#projects{
+    width: 88vw;
+    padding: 13vh 5vw;
+}
+
+.projectlist{
+    margin-top: 40px;
+    width: 90%;
+    justify-self: center;
+}
+
+.projectcard{
+    margin-top: 20px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+}
+
+.projectcard h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #3B82F6;
+    margin-bottom: 15px;
+}
+
+.projectcard p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.projectcard p span{
+    font-weight: bolder;
+    color: #3B82F6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.projectcard a{
+    text-decoration: none;
+    color: #3B82F6;
+}
+
+.projectcard a:hover{
+    color: black;
+}
+
+.project2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2%;
+    row-gap: 4%;
+}
+
+.projectcard2{
+    padding: 15px;
+    padding-bottom: 30px;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.projectcard2:hover{
+    color: #3B82F6;
+    background-color: white;
+    border: solid 1px #3B82F6;
+    box-shadow: 0px 0px 10px #3B82F6;
+}
+
+.projectcard2head{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.projectcard2 p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.project2 button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: solid 1px #3B82F6;
+    color: #3B82F6;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+}
+
+.project2 button:hover{
+    color: white;
+    background-color: #3B82F6;
+    box-shadow: 0px 0px 10px #3B82F6;
+}
+
+#skills{
+    width: 88vw;
+    padding: 13vh 5vw;
+}
+
+.skillmain{
+    padding-top: 20px;
+}
+
+.skilllist{
+    width: 90%;
+    margin-top: 30px;
+    justify-self: center;
+}
+
+.skilllist h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color: #3B82F6; */
+}
+
+.skillcard{
+    padding: 10px 15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px gray;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+
+.skillcard hr{
+    border: solid 2px #3B82F6;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.lskill{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.skillimg img{
+    height: 20px;
+}
+
+.skillcard:hover{
+    transform: scale(1.04);
+}
+
+#contact{
+    width: 88vw;
+    padding: 0 5vw;
+    padding-top: 13vh;
+}
+
+form{
+    margin: 30px auto;
+    justify-self: center;
+    width: 25%;
+    position: relative;
+    padding: 30px 25px;
+}
+
+form input{
+    width: 100%;
+    height: 3vh;
+    margin-bottom: 30px;
+    padding: 10px 12px;
+    border: solid 1px #3B82F6;
+    border-radius: 10px;
+    color: #3B82F6;
+}
+
+form input::placeholder{
+    color: #3B82F6;
+}
+
+form input:focus{
+    outline: none;
+    color: #3B82F6;
+}
+
+form textarea{
+    width: 100%;
+    height: 15vh;
+    padding: 10px 12px;
+    border: solid 1px #3B82F6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+form textarea::placeholder{
+    color: #3B82F6;
+}
+
+form textarea:focus{
+    outline: none;
+    color: #3B82F6;
+}
+
+form button{
+    color: white;
+    background-color: #3B82F6;
+    border: solid 1px #3B82F6;
+    border-radius: 5px;
+    padding: 8px 13px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+form button:hover{
+    color: #3B82F6;
+    background-color: white;
+    border: solid 2px #3B82F6;
+    box-shadow: 0px 0px 10px #3B82F6;
+}
+
+footer{
+    background-color: #3B82F6;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+}
+
+footer h3{
+    letter-spacing: 2px;
+}
+
+footer .social{
+    justify-self: center;
+}
+
+footer .social img:hover{
+    filter: drop-shadow(0px 0px 5px white);
+}
+
+#err{
+    display: block;
+    justify-self: center;
+}
+
+@media screen and (max-width:400px) {
+
+    .menu{
+        display: flex;
+        padding-right: 30px;
+        color: #3B82F6;
+    }
+
+    .menu select{
+        padding: 5px 0;
+        background-color: #3B82F6;
+        border: solid 1px #3B82F6;
+        color: white;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+    .menu select:hover{
+        color: #3B82F6;
+        background-color: white;
+    }
+
+    .menu select:focus{
+        outline: none;
+    }
+
+    .menu a option{
+        color: #3B82F6;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .homebody{
+        display: grid;
+    }
+
+    .home h1{
+        font-size: 40px;
+    }
+
+    .home h1 span{
+        font-size: 35px;
+    }
+
+    .home h2{
+        font-size: 25px;
+    }
+
+    .lbody{
+        width: 90%;
+        margin-top: 100px;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .social{
+        justify-self: center;
+        width: 80%;
+    }
+
+    .rbody{
+        width: 90%;
+        margin-top: 50px;
+        justify-self: center;
+    }
+
+    .rbody hr{
+        transform: translateX(8px);
+    }
+
+    #about{
+        width: 90vw;
+        padding: 10vh 1vw;
+        justify-self: center;
+    }
+
+    .aboutbody{
+        margin: 20px 0;
+        padding: 0px 0px;
+        justify-content: center;
+    }
+
+    .aboutcontent{
+        margin: 20px 0;
+        justify-self: center;
+        width: 90%;
+    }
+
+    .circle{
+        width: 150px;
+        height: 150px;
+    }
+
+    .circle img{
+        height: 100%;
+    }
+
+    #projects{
+        width: 90vw;
+        padding: 10vh 1vw;
+        justify-self: center;
+    }
+
+    .projectlist{
+        width: 90%;
+    }
+
+    .projectcard2{
+        padding-bottom: 70px;
+    }
+
+    .projectcard2 button{
+        left: 33%;
+        padding: 10px 5px;
+    }
+
+    .head{
+        margin-left: 30px;
+    }
+
+    #skills{
+        width: 90vw;
+        padding: 10vh 1vw;
+        justify-self: center;
+    }
+
+    #contact{
+        width: 90vw;
+        padding: 10vh 1vw;
+        justify-self: center;
+    }
+
+    .project2{
+        grid-template-columns: auto;
+        column-gap: 4%;
+        row-gap: 1%;
+    }
+
+    .aboutbody{
+        display: grid;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .circle{
+        justify-self: center;
+    }
+
+    .aboutcontent{
+        width: 80%;
+    }
+
+    form{
+        width: 80%;
+        margin-bottom: 0px;
+        padding: 10px 12px;
+        padding-bottom: 40px;
+    }
+    
+}

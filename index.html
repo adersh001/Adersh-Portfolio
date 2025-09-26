@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADERSH PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="headermain">
+            <div class="lheader">ADERSH</div>
+            <div class="header">
+                <a class="a1" href=""><strong>HOME</strong></a>
+                <a class="a1" href="#about"><strong>ABOUT</strong></a>
+                <a class="a1" href="#projects"><strong>PROJECTS</strong></a>
+                <a class="a1" href="#skills"><strong>SKILLS</strong></a>
+                <a class="a1" href="#contact"><strong>CONTACT</strong></a>
+            </div>
+            <div class="menu">
+                <select onchange="location = this.value">
+                    <a href="">
+                        <option value="">Home</option>
+                    </a>
+                    <a href="#about">
+                        <option value="#about">About</option>
+                    </a>
+                    <a href="#projects">
+                        <option value="#projects">Project</option>
+                    </a>
+                    <a href="#skills">
+                        <option value="#skills">Skills</option>
+                    </a>
+                    <a href="#contact">
+                        <option value="#contact">Contact</option>
+                    </a>
+                </select>
+            </div>
+        </div>
+        <img onclick="daynight()" id="b1" src="./images/night-mode.png" alt="">
+        <div class="homebody">
+            <div class="lbody">
+                <h1>Hi, I am <span>A</span><span>D</span><span>E</span><span>R</span><span>S</span><span>H</span>
+                    <span>K</span> <span>S</span>
+                </h1>
+                <h2><span>F</span><span>U</span><span>L</span><span>L</span>
+                    <span>S</span><span>T</span><span>A</span><span>C</span><span>K</span>
+                    <span>D</span><span>E</span><span>V</span><span>E</span><span>L</span><span>O</span><span>P</span><span>E</span><span>R</span>
+                </h2>
+                <div class="social">
+                    <a href="tel:+917559053857"><img src="./images/phone-call.png" alt=""></a>
+                    <a href="https://wa.me/917559053857" target="_blank"><img src="./images/whatsapp (1).png"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/adersshhh_?igsh=MW55ZmN2dzJtbG82eA==" target="_blank"><img
+                            src="./images/instagram.png" alt=""></a>
+                    <a href="mailto:adershsuresh10@gmail.com" target="_blank"><img src="./images/email.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/adersh-k-s-6295a2271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><img src="./images/linkedin (1).png" alt=""></a>
+                    <a href="https://github.com/adersh001" target="_blank"><img src="./images/github.png" alt=""></a>
+                </div>
+
+            </div>
+            <div class="rbody">
+                <img src="./images/photo.png" alt="">
+                <hr>
+            </div>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="head">
+            <h1>ABOUT</h1>
+            <div class="line"></div>
+        </div>
+        <div class="aboutbody">
+            <div class="circle"><img src="./images/dp.jpeg" alt=""></div>
+            <div class="aboutcontent">
+                <h1>I'm Adersh K S</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a Computer Science and Engineering graduate with strong skills in
+                    Python, SQL, HTML, CSS, JavaScript, and Django. I enjoy building practical and innovative projects
+                    such as FITRIDE: The Fitness Game, an award-winning bicycle-based game controller, and AQUAFIND: An
+                    Underwater Object Detector using YOLOv9. With experience in web development, AI/ML applications, and
+                    IoT-based solutions, along with workshops and an internship at Nestsoft Technologies, I am
+                    passionate about creating user-focused digital solutions while continuously learning and growing as
+                    a developer. <a href="./images/Adershprofile.pdf" target="_blank"><button>Resume</button></a></p>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="head">
+            <h1>PROJECTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="projectlist">
+            <h2>College Projects:</h2>
+            <div class="projectcard">
+                <h3>COLLEGE TECHFEST WEBSITE</h3>
+                <p id="prjtdscrptn"><span>Content:</span>&nbsp;&nbsp;A website where students gets information about the
+                    events and can register for events conducted by
+                    various department and it also includes a feature for online payment during event registration. It
+                    was done using a codeless platform called WIX.</p>
+                <p><span>Role:</span>&nbsp;&nbsp;Designing of Front-end layouts.</p>
+            </div>
+            <div class="projectcard">
+                <h3>AQUAFIND: Underwater Object Detector</h3>
+                <p id="prjtdscrptn"><span>Content:</span>&nbsp;&nbsp;AQUAFIND is a real-time underwater object detection
+                    system, by using an object detection algorithm
+                    YOLOV9, custom build dataset and camera. This system will enable effecient identification and
+                    tracking of missing objects by entering the name of the object need to be finded.</p>
+                <p><span>Role:</span>&nbsp;&nbsp;Convertion of raw video files to frames for the creation of
+                    dataset(Framing).</p>
+                <a href="https://github.com/adersh001/ACQUAFIND-Underwater-Object-Detection"
+                    target="_blank"><strong>Github Repository 🔗</strong></a>
+            </div>
+            <div class="projectcard">
+                <h3>FITRIDE: The Fitness Game</h3>
+                <p id="prjtdscrptn"><span>Content:</span>&nbsp;&nbsp;FITRIDE is a game controller based on
+                    Human-Computer Interaction that uses a real bicycle to control
+                    in-game actions in real-time. The main objective of the project is to combine gaming and fitness,
+                    making physical activity more engaging. This is achieved by integrating sensors into the bicycle,
+                    where the user's physical interactions are mapped to corresponding in-game actions.</p>
+                <p><span>Role:</span>&nbsp;&nbsp;Integration of hardware components to the software</p>
+                <a href="https://github.com/adersh001/FITRIDE-The-Fitness-Game" target="_blank"><strong>Github
+                        Repository 🔗</strong></a>
+            </div>
+        </div>
+        <div class="projectlist">
+            <h2>Web Technology Projects:</h2>
+            <div class="project2">
+                <div class="projectcard2">
+                    <div class="projectcard2head">Frozen Yogurt Shop</div>
+                    <p>A clone of Frozen yogurt Shop website, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/frozenyogurtshop.png" target="_blank"><button>Visit
+                            Project 🔗</button></a>
+                </div>
+                <div class="projectcard2">
+                    <div class="projectcard2head">Netflix</div>
+                    <p>A clone of Netflix website, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/netflix.png" target="_blank"><button>Visit
+                            Project 🔗</button></a>
+                </div>
+                <div class="projectcard2">
+                    <div class="projectcard2head">Prime Video</div>
+                    <p>A clone of Prime video website, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/primevideo.png" target="_blank"><button>Visit
+                            Project 🔗</button></a>
+                </div>
+                <div class="projectcard2">
+                    <div class="projectcard2head">Shadi.com</div>
+                    <p>A clone of Shadi.com website, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/shadi.png" target="_blank"><button>Visit
+                            Project 🔗</button></a>
+                </div>
+                <div class="projectcard2">
+                    <div class="projectcard2head">Knight Bite</div>
+                    <p>A clone of Knight Bite website, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/knightbite.png"
+                        target="_blank"><button>Visit Project 🔗</button></a>
+                </div>
+                <div class="projectcard2">
+                    <div class="projectcard2head">Facebook</div>
+                    <p>A clone of Facebook login page, built using HTML and CSS. This highlights my skills in
+                        Front-end development and responsiveness design.</p>
+                    <a href="./images/facebook.png"
+                        target="_blank"><button>Visit Project 🔗</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="head">
+            <h1>SKILLS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="skillmain">
+            <div class="skilllist">
+                <h2>Programming Languages:</h2>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/python.png" alt=""></div>
+                            <div class="skillname"><strong>Python</strong></div>
+                        </div>
+                        <div class="rskill"><strong>90%</strong></div>
+                    </div>
+                    <hr style="width: 90%;">
+                </div>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/java.png" alt=""></div>
+                            <div class="skillname"><strong>Java</strong></div>
+                        </div>
+                        <div class="rskill"><strong>35%</strong></div>
+                    </div>
+                    <hr style="width: 35%;">
+                </div>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/letter-c.png" alt=""></div>
+                            <div class="skillname"><strong>C language</strong></div>
+                        </div>
+                        <div class="rskill"><strong>30%</strong></div>
+                    </div>
+                    <hr style="width: 30%;">
+                </div>
+            </div>
+            <div class="skilllist">
+                <h2>Web Technologies:</h2>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/html.png" alt=""></div>
+                            <div class="skillname"><strong>HTML</strong></div>
+                        </div>
+                        <div class="rskill"><strong>95%</strong></div>
+                    </div>
+                    <hr style="width: 95%;">
+                </div>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/css.png" alt=""></div>
+                            <div class="skillname"><strong>CSS</strong></div>
+                        </div>
+                        <div class="rskill"><strong>95%</strong></div>
+                    </div>
+                    <hr style="width: 95%;">
+                </div>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/js.png" alt=""></div>
+                            <div class="skillname"><strong>JavaScript</strong></div>
+                        </div>
+                        <div class="rskill"><strong>75%</strong></div>
+                    </div>
+                    <hr style="width: 75%;">
+                </div>
+            </div>
+            <div class="skilllist">
+                <h2>Database:</h2>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/sql-server.png" alt=""></div>
+                            <div class="skillname"><strong>SQL</strong></div>
+                        </div>
+                        <div class="rskill"><strong>98%</strong></div>
+                    </div>
+                    <hr style="width: 98%;">
+                </div>
+            </div>
+            <div class="skilllist">
+                <h2>Framework:</h2>
+                <div class="skillcard">
+                    <div class="skill">
+                        <div class="lskill">
+                            <div class="skillimg"><img src="./images/dj.png" alt=""></div>
+                            <div class="skillname"><strong>Django</strong></div>
+                        </div>
+                        <div class="rskill"><strong>40%</strong></div>
+                    </div>
+                    <hr style="width: 40%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="head">
+            <h1>CONTACT</h1>
+            <div class="line"></div>
+        </div>
+        <form action="" onsubmit="validation(event)">
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <textarea name="" placeholder="Enter your queries"></textarea>
+            <span id="err"></span>
+            <button>Submit</button>
+        </form>
+    </div>
+    <footer>
+        <h3>Connect With Me</h3>
+        <div class="social">
+            <a href="tel:+917559053857"><img src="./images/phone-call (1).png" alt=""></a>
+            <a href="https://wa.me/917559053857" target="_blank"><img src="./images/whatsapp (2).png"
+                            alt=""></a>
+            <a href="https://www.instagram.com/adersshhh_?igsh=MW55ZmN2dzJtbG82eA==" target="_blank"><img
+                            src="./images/instagram (1).png" alt=""></a>
+            <a href="mailto:adershsuresh10@gmail.com" target="_blank"><img src="./images/email (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/in/adersh-k-s-6295a2271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank"><img src="./images/linkedin (2).png" alt=""></a>
+            <a href="https://github.com/adersh001" target="_blank"><img src="./images/github (1).png" alt=""></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
