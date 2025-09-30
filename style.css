@@ -451,7 +451,7 @@ form input{
     padding: 10px 12px;
     border: solid 1px #3B82F6;
     border-radius: 10px;
-    color: #3B82F6;
+    /* color: #3B82F6; */
 }
 
 form input::placeholder{
@@ -460,7 +460,7 @@ form input::placeholder{
 
 form input:focus{
     outline: none;
-    color: #3B82F6;
+    /* color: #3B82F6; */
 }
 
 form textarea{
@@ -478,7 +478,7 @@ form textarea::placeholder{
 
 form textarea:focus{
     outline: none;
-    color: #3B82F6;
+    /* color: #3B82F6; */
 }
 
 form button{
